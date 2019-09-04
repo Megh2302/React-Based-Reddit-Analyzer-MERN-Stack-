@@ -1,24 +1,4 @@
-
-
-
-CS 554 Spring 2018 Final Project
-
-Group Name: The Programming Teletubbies
-
-Group Members:
-
-1. Maulik Jajal (10421667)
-2. Pranit Kulkarni (10414948)
-3. Megh Vankawala (10421684)
-4. Vishwajeet Kakde (10421625)
-
 Project Title :- Reddit Analyzer (Note: Project inspired by http://www.snoopsnoo.com)
-
-Project Demo Links:
-
-Youtube: https://youtu.be/mxmJLhr6Qek
-
-Google Drive: https://drive.google.com/file/d/1NnRYQx5ex6Tg87Uhuxc6WmWYgKNoceJg/view?usp=sharing
 
 Terms covered:
 
@@ -45,11 +25,6 @@ Note: if Mongod or Redis-server command not found, Start Mongodb and redid serve
 	then npm test to run the project
 
 add "allow-control-allow-origin" chrome extension if required 
-
-
-
-
-
 
 References:
 https://github.com/shouheiyamauchi/react-passport-example
