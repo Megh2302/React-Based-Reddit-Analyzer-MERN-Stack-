@@ -1,0 +1,200 @@
+.card-heading
+{
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0.5em;
+  color: darkslategray;
+  text-align: center;
+  padding-top: 5%;
+}
+
+a {
+  color: #00bcd4;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: #1976d2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.top-bar {
+  padding: 10px 15px;
+  margin-bottom: 50px;
+}
+.top-bar::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top-bar-left {
+  float: left;
+  font-size: 1.5em;
+}
+
+.top-bar-right {
+  float: right;
+}
+
+.top-bar a,
+.nav a {
+  margin: 0 8px;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+.container1 {
+  margin: 0 auto;
+  text-align: center;
+  width: 600px;
+  border-top: 6px solid skyblue ;
+  border-bottom: 6px solid skyblue ;
+  }
+
+.login-form, .signup-form
+{
+  background-color: lightcyan;
+}
+
+.create-acc, .lgn, .login-btn
+{
+  color: darkblue;
+}
+
+/*.card-heading {*/
+  /*padding: 16px;*/
+/*}*/
+
+.field-line, .button-line {
+  padding: 16px;
+}
+
+.error-message {
+  padding: 0 16px;
+  color: tomato;
+}
+
+.success-message {
+  padding: 0 16px;
+  color: green;
+}
+
+body{
+  font-family: 'Open Sans', 'Roboto', 'Helvetica Neue', sans-serif;
+  background-color: #282828;
+}
+
+.btn-primary
+{
+  cursor: pointer;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 1em;
+  height: 2.5em;
+  padding: 0 1.5em;
+  transition-duration: 0.3s;
+  color: #282828;
+  margin-left: 5px;
+}
+
+.btn-primary:hover
+{
+  background-color: skyblue;
+  color: #282828;
+}
+h1
+{
+  font-size: 2.2rem;
+  font-weight: 300;
+  margin: 0.5em;
+  color:white;
+  text-align: center;
+}
+
+.userInput
+{
+  font-size: 1em;
+  padding-left: 1em;
+  height: 2.5em;
+  width: 25em;
+  box-sizing: border-box;
+  outline-color: darkcyan;
+  transition: outline 0.3s ease-in-out;
+
+}
+
+.container-fluid div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-input
+{
+  background-color: lightcyan;
+  height: 2.5em;
+  width: 2.5em;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+
+.logo img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43%;
+    margin-top: 2rem;
+    height: 150px;
+    width: 150px;
+}
+
+.card {
+  border-top: 6px solid skyblue ;
+  border-bottom: 6px solid skyblue ;
+  background-color: lightcyan;
+  margin-bottom: 30px;
+}
+.user-info div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-img img
+{
+  border-radius: 50%;
+  background-color: grey;
+}
+
+h2, .card-text
+{
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin: 0.5em;
+  color: black;
+  text-align: center;
+}
+
+
+.Xaxis{
+  color: blue;
+  padding-left: 500px;
+}
+
+.Yaxis{
+  color: darkred;
+  padding-left: 25px;
+}

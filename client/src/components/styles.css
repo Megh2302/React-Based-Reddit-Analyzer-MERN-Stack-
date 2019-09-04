@@ -1,0 +1,61 @@
+body{
+    font-family: 'Open Sans', 'Roboto', 'Helvetica Neue', sans-serif;
+    background-color: #282828;
+}
+
+.btn-primary
+{
+    cursor: pointer;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1em;
+    height: 2.5em;
+    padding: 0 1.5em;
+    transition-duration: 0.3s;
+    background-color: lightcyan;
+    color: #282828;
+    margin-left: 5px;
+}
+
+.btn-primary:hover
+{
+    background-color: skyblue;
+    color: #282828;
+}
+h1
+{
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin: 0.5em;
+    color:white;
+    text-align: center;
+}
+
+.userInput
+{
+    font-size: 1em;
+    padding-left: 1em;
+    height: 2.5em;
+    width: 25em;
+    box-sizing: border-box;
+    outline-color: darkcyan;
+    transition: outline 0.3s ease-in-out;
+
+}
+
+.container-fluid div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pre-input
+{
+    background-color: lightcyan;
+    height: 2.5em;
+    width: 2.5em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}

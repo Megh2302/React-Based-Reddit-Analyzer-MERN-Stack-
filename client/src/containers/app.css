@@ -1,0 +1,33 @@
+.logo img
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43%;
+    margin-top: 2rem;
+    height: 150px;
+    width: 150px;
+}
+
+.Email-btn
+{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    height: 2.5em;
+    padding: 0 1.5em;
+    transition-duration: 0.3s;
+    background-color: lightcyan;
+    color: #282828;
+    margin-bottom: 15px;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.Email-btn:hover
+{
+    background-color: skyblue;
+    color: #282828;
+}
+

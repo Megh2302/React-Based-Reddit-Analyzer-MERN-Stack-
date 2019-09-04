@@ -1,0 +1,89 @@
+.user-info .card
+{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .user-info .card .user-row {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: auto;
+    }
+}
+
+.user-info .user-row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.user-info .user-circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding-bottom: 0.5em;
+    margin: auto;
+}
+
+.user-info .user-circle div,.user-info .user-circle1 div  {
+    font-size: 2.0em;
+    border-radius: 50%;
+    border: 3px solid #129cff;
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    font-family: Calibri;
+    color: darkslategray;
+
+}
+
+.user-info .user-circle span {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+    color: darkslategray;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.user-circle1
+{
+    margin-right: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding-bottom: 0.5em;
+}
+
+.upvoted-comment, .downvoted-comment,.downvoted-post, .upvoted-post
+{
+    border: 3px solid #129cff;
+    border-radius: 15px ;
+    height: 3em;
+    width: 500px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 130px;
+    line-height: 3em;
+    font-size: 1.1em;
+    margin-bottom:40px ;
+    padding-left: 10px;
+    color: darkslategray;
+    font-family: Calibri;
+    font-weight: bold;
+}
+
+.stats-title
+{
+    color: darkslategray;
+    font-family: Calibri;
+    font-weight: bold;
+}
+

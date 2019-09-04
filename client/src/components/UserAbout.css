@@ -1,0 +1,37 @@
+.card {
+    border-top: 6px solid skyblue ;
+    border-bottom: 6px solid skyblue ;
+    background-color: lightcyan;
+    margin-bottom: 30px;
+}
+.user-info div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-img img
+{
+    border-radius: 50%;
+    background-color: grey;
+}
+
+ .card-text
+{
+    font-size: 1.8rem;
+    font-weight: 300;
+    /*margin: 0.5em;*/
+    color: darkslategrey;
+    text-align: center;
+}
+
+h2
+{
+    font-size: 1.8rem;
+    font-weight: 300;
+    /*margin: 0.5em;*/
+    color: lightgrey;
+    text-align: center;
+}
+
